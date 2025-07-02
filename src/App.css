@@ -1,0 +1,257 @@
+/* Fondo tipo papel antiguo */
+.libro-container {
+  background: linear-gradient(135deg, #f5f1e9 0%, #d6c9b8 100%);
+  font-family: 'Georgia', serif;
+  color: #5b4636;
+  min-height: 100vh;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px #8b7153;
+}
+
+/* Título principal estilo vintage */
+.titulo-principal {
+  font-size: 2.8rem;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 700;
+  color: #7c5c2a;
+  text-shadow: 1px 1px 0 #d9cba3;
+  font-family: 'Georgia', serif;
+}
+
+/* Barra principal */
+.barra-principal {
+  border-bottom: 2px solid #8b7153;
+  padding-bottom: 10px;
+}
+
+/* Botón lupa rústico */
+.lupa-btn {
+  background: #d2b48c;
+  border: 2px solid #7c5c2a;
+  color: #5b4636;
+  font-size: 1.2rem;
+  border-radius: 6px;
+  padding: 6px 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.lupa-btn:hover {
+  background: #7c5c2a;
+  color: #f5f1e9;
+  border-color: #d2b48c;
+}
+
+/* Input buscador */
+.input-buscador {
+  border: 2px solid #7c5c2a;
+  background: #f9f5e7;
+  color: #5b4636;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-family: 'Georgia', serif;
+  font-size: 1rem;
+}
+
+/* Botón buscar */
+.buscar-btn {
+  background: #7c5c2a;
+  border: 2px solid #5b4636;
+  color: #f9f5e7;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: 'Georgia', serif;
+  font-weight: 600;
+}
+.buscar-btn:hover {
+  background: #5b4636;
+  color: #d2b48c;
+}
+
+/* Botón nuevo libro */
+.nuevo-btn {
+  background: #a67c00;
+  border: 2px solid #7c5c2a;
+  color: #f9f5e7;
+  padding: 10px 18px;
+  font-weight: 700;
+  font-family: 'Georgia', serif;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px #8b7153;
+}
+.nuevo-btn:hover {
+  background: #7c5c2a;
+  color: #f5f1e9;
+}
+
+/* Formulario rústico */
+.formulario-rustico {
+  background: #f4e9d6;
+  border: 2px solid #7c5c2a;
+  border-radius: 12px;
+  box-shadow: 3px 3px 10px #9b8556;
+  font-family: 'Georgia', serif;
+}
+
+/* Título formulario */
+.subtitulo-formulario {
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+  font-weight: 600;
+  color: #7c5c2a;
+  text-shadow: 1px 1px 0 #d9cba3;
+}
+
+/* Inputs estilo rústico */
+.input-rustico {
+  width: 100%;
+  padding: 10px 14px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: 2px solid #7c5c2a;
+  font-family: 'Georgia', serif;
+  font-size: 1rem;
+  background: #faf3dd;
+  color: #5b4636;
+  box-shadow: inset 2px 2px 5px #e6dbb5;
+  transition: border-color 0.3s ease;
+}
+.input-rustico:focus {
+  outline: none;
+  border-color: #a67c00;
+}
+
+/* Botones dentro del formulario */
+.btn-rustico {
+  font-family: 'Georgia', serif;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 10px 16px;
+  box-shadow: 2px 2px 6px #8b7153;
+  transition: background-color 0.3s ease;
+  border: 2px solid #7c5c2a;
+}
+
+.btn-success.btn-rustico {
+  background: #a67c00;
+  color: #faf3dd;
+}
+.btn-success.btn-rustico:hover {
+  background: #7c5c2a;
+  color: #f5f1e9;
+}
+
+.btn-warning.btn-rustico {
+  background: #c28500;
+  color: #faf3dd;
+}
+.btn-warning.btn-rustico:hover {
+  background: #8b5a00;
+  color: #f5f1e9;
+}
+
+.btn-secondary.btn-rustico {
+  background: #7c5c2a;
+  color: #faf3dd;
+}
+.btn-secondary.btn-rustico:hover {
+  background: #5b4636;
+  color: #d2b48c;
+}
+
+/* Tabla estilo rústico */
+.tabla-rustica {
+  background: #f4e9d6;
+  border-radius: 12px;
+  border: 2px solid #7c5c2a;
+  box-shadow: 3px 3px 10px #9b8556;
+  padding: 20px;
+  font-family: 'Georgia', serif;
+}
+
+.subtitulo-tabla {
+  color: #7c5c2a;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+  text-shadow: 1px 1px 0 #d9cba3;
+}
+
+/* Tabla */
+.tabla-libros {
+  width: 100%;
+  border-collapse: collapse;
+  color: #5b4636;
+}
+.tabla-libros th,
+.tabla-libros td {
+  border: 1px solid #7c5c2a;
+  padding: 12px 14px;
+  text-align: left;
+  background: #faf3dd;
+}
+.tabla-libros th {
+  background: #a67c00;
+  color: #faf3dd;
+  font-weight: 700;
+  box-shadow: 0 2px 4px #8b7153;
+}
+
+/* Botones en tabla */
+.btn-editar,
+.btn-eliminar {
+  font-family: 'Georgia', serif;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 6px 10px;
+  margin-right: 6px;
+  cursor: pointer;
+  border: 2px solid #7c5c2a;
+  transition: background-color 0.3s ease;
+}
+
+.btn-editar {
+  background: #c28500;
+  color: #faf3dd;
+}
+.btn-editar:hover {
+  background: #8b5a00;
+  color: #f5f1e9;
+}
+
+.btn-eliminar {
+  background: #a74400;
+  color: #faf3dd;
+}
+.btn-eliminar:hover {
+  background: #6e2c00;
+  color: #f5f1e9;
+}
+
+/* Alertas */
+.alerta-rustica {
+  background: #e8d8b9;
+  color: #7c5c2a;
+  border: 2px solid #a67c00;
+  padding: 10px 14px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  font-family: 'Georgia', serif;
+  font-weight: 600;
+  box-shadow: inset 1px 1px 5px #d9cba3;
+}
+
+.alerta-info-rustica {
+  background: #f0ead8;
+  border: 2px solid #7c5c2a;
+  color: #5b4636;
+  padding: 12px 16px;
+  border-radius: 10px;
+  font-family: 'Georgia', serif;
+  font-weight: 600;
+  margin-bottom: 20px;
+  box-shadow: inset 1px 1px 6px #d9cba3;
+}
